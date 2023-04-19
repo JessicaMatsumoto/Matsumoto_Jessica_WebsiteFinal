@@ -1,0 +1,73 @@
+        /* Style the body */
+body {
+  margin: 0;
+  background-color: #8DA88C;
+ }
+/* Header/Logo Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #D9AC93;
+}
+.logo {
+  align-items: left;
+}
+.box {
+  text-align: center;
+  background: #8DA88C;
+  width: fill;
+  height: auto;
+  padding: 50px;
+}
+.center {
+  margin: auto;
+  width: fit-content;
+  padding: 35px;
+}          
+.row {
+  display: flex;
+  padding: 15px;
+}
+          
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.circular--square {
+  border-radius: 50%;
+}
+h1 {
+  color: white;
+  font-size: xx-large;
+  text-shadow: 2px 2px 4px #767676;
+}
+h2 {
+  color: white;
+  font-size: xx-large;
+  text-shadow: 2px 2px 4px #767676;
+  text-align: center;
+}
+p {
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
+.inline-div {
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+
+h4
+{
+  display: table-cell;
+  width:fit-content;
+  color: white;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container > div {
+  width: fit-content;
+  margin: 5px;
+}
